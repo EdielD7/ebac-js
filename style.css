@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    text-align: center;
+    margin: 20px;
+}
+
+body {
+    background-color: rgb(109, 125, 144);
+    font: normal 12pt arial;
+    color: whitesmoke;
+}
+
+section {
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.292);
+    padding: 20px;
+    width: 500px;
+    margin: auto;
+}
+
+footer {
+    text-align: center;
+    font-style: italic;
+    margin-top: 20px;
+}
