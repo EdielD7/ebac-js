@@ -13,13 +13,12 @@
     </header>
     <section>
         <p>Escreva dois números em ordem crescente:</p>
-        <p>
+        <form id="fcompare">
             <input type="number" name="txtnum1" id="txtnum1" placeholder="Campo A">
-            <
             <input type="number" name="txtnum2" id="txtnum2" placeholder="Campo B">
-            <input type="button" value="Verificar" onclick="validar()">
-        </p>
-        <p>É VÁLIDO!</p>
+            <button type="submit" onclick="validar()">Verificar</button>
+        </form>
+        <p id="validador">É VÁLIDO!</p>
     </section>
     <footer>
         <p>&copy; EdielD7</p>

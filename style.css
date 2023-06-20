@@ -24,6 +24,10 @@ section {
     margin: auto;
 }
 
+#validador {
+    display: none;
+}
+
 footer {
     text-align: center;
     font-style: italic;
